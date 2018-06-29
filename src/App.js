@@ -72,6 +72,11 @@ class App extends Component {
             View on Github
           </a>&nbsp;
           <FontAwesomeIcon icon={faGithub} color="whitesmoke" />
+          <p>Built & maintained by&nbsp;
+            <a href="http://connerjevning.com" style={{ color: 'whitesmoke' }}>
+              Conner Jevning
+            </a>
+          </p>
         </header>
         {error &&
           <p className="Error-text">{error}</p>
