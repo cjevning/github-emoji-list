@@ -4,9 +4,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0",
+    "@fortawesome/react-fontawesome": "^0.1.0",
+    "axios": "^0.18.0",
+    "copy-to-clipboard": "^3.0.8",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-helmet": "^5.2.0",
+    "react-notifications": "^1.4.3",
+    "react-scripts": "1.1.4",
+    "react-select": "^2.0.0-beta.6"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -9,17 +9,96 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
   padding: 20px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2rem;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.Error-text {
+  color: red;
+}
+
+.Emojis-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Emoji-display {
+  margin: 1em 4%;
+  padding: 0.5em;
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1.5rem;
+  flex-grow: 1;
+  width: 25%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Emoji-display:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.Emoji-image {
+  width: 2em; 
+}
+
+.Emoji-copy {
+  color: white;
+  font-size: 1rem;
+}
+
+.Emoji-search {
+  max-width: 50%;
+  margin: 2em auto;
+}
+
+.Link-image {
+  width: 1em;
+  color: white;
+}
+
+.Option {
+  display: flex;
+  position: relative;
+}
+
+.Option:hover .Option-copy {
+  display: block;
+}
+
+.Option-image {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+}
+
+.Option-copy {
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  display: none;
+}
+
+@media only screen and (max-width: 870px) {
+  .Emoji-search {
+    max-width: 90%;
+  }
+
+
+  .Emoji-display {
+    width: 92%;
+  }
 }
 
 @keyframes App-logo-spin {
